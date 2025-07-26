@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  background-color: #0c0e1a;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.outer-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.card {
+  background: #1e2b45;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 15px #29a3fe;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.banner {
+  position: relative;
+  height: 120px;
+  background-image: url("https://xatimg.com/image/66egaadix2ER.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-pic {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 4px solid #1e2b45;
+  width: 60px;
+  height: 60px;
+}
+
+.content {
+  padding: 40px 20px 0;
+}
+
+.username {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.tag {
+  color: #7ca6ff;
+  font-size: 0.9em;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.info-section .icon {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.friends {
+  margin-top: 20px;
+}
+
+.friend-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.friend {
+  text-align: center;
+  cursor: pointer;
+}
+
+.friend img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #29a3fe;
+}
+
+.friend p {
+  margin-top: 5px;
+  font-size: 0.8em;
+  color: #ccc;
+}
+
+.friend:hover p {
+  color: #7ca6ff;
+  text-decoration: underline;
+}
+
+.player {
+  background: #0d121c;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.player img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.player .song {
+  font-weight: bold;
+}
+
+.player .artists {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.arrow {
+  font-size: 18px;
+  color: #29a3fe;
+}
+
+.now-playing {
+  padding: 30px 20px;
+}
+
+.now-playing img {
+  width: 180px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.now-playing h2 {
+  margin: 10px 0 5px;
+}
+
+iframe {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 320px;
+  height: 180px;
+  border: none;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 20px;
+  color: #7ca6ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
